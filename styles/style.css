@@ -13,10 +13,7 @@ header{
     padding: 25px 0;
 }
 .container{
-    max-width: 80%;
-    margin: 0 auto;
-}
-.wrapper{
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -33,6 +30,9 @@ header{
 }
 
 /* Стилизация внутри внутренних классов */
+.headline p{
+    color: gray;
+}
 .item img{
     width: 10%;
     float: left;
@@ -45,4 +45,5 @@ header{
 .item p{
     max-width: 70%;
     margin-left: 15%;
+    color: darkgray;
 }
